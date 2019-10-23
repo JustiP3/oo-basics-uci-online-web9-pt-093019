@@ -8,11 +8,11 @@ end
 def title=(title)
   @title = title
 end
-def author_name
-  @author_name
+def author
+  @author
 end
-def author_name=(name)
-  @author_name = name
+def author=(name)
+  @author = name
 end
 
 
