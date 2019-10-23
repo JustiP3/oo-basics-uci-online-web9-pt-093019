@@ -3,8 +3,15 @@ class Shoe
 def initialize(brand)
   @brand = brand
 end
-attr_writer :brand, :color, :size, :material, "condition"
-attr_reader :brand, :color, :size, :material, :condition
+attr_writer :brand, :color, :size, :material
+attr_reader :brand, :color, :size, :material
+def condition
+  @condition
+end
+def condition=(status)
+  @condition = status
+end
+
 
 def cobble
   condition = "new"
